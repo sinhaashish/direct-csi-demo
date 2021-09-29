@@ -14,7 +14,7 @@ k3s delete pvc  --all
  
  ### Install
 ```
- ./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml --image direct-csi:v1:4:1
+ ./kubectl-direct_csi install --kubeconfig /home/ashish/.kube/k3s.yaml --image direct-csi:v1:4:1
  ```
   ### Install usin my own registry
 ```
