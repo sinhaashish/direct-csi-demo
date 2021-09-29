@@ -16,10 +16,21 @@ k3s delete pvc  --all
 ```
  ./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml --image direct-csi:v1:4:1
  ```
-  ### Install usin my own registru 
+  ### Install usin my own registry
 ```
  ./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml --org sinha1 --image direct-csi:v1
  ```
+ 
+   ### List pods in direct-csi  name space
+```
+ k3s get pods -n direct-csi-min-io -o wide
+ ```
+
+### List pods in direct-csi  name space
+```
+./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml drives ls -all -o wide 
+ ```
+ 
  
  ### get nodes 
  ```
