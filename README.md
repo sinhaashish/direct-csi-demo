@@ -18,7 +18,7 @@ k3s delete pvc  --all
  ```
   ### Install usin my own registry
 ```
- ./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml --org sinha1 --image direct-csi:v1
+ ./kubectl-direct_csi --kubeconfig /home/ashish/.kube/k3s.yaml install --org sinha1 --image direct-csi:v1
  ```
  
    ### List pods in direct-csi  name space
